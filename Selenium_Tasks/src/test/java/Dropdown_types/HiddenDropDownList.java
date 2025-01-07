@@ -45,7 +45,7 @@ public class HiddenDropDownList {
 
 		// Select the hidden dropdown option.
 		driver.findElement(By.xpath("//span[normalize-space()='Senior QA Lead']")).click();
-
+      driver.quit();
 	}
 
 }

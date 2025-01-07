@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Small Tasks">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Dropdown_types.SelectDropdown"/>
+   <!--   <class name="jan4.GetComapnyNames"/> -->
+      <class name="Dropdown_types.AutoSuggestDropDown"/>
+      <class name="Dropdown_types.BootstrapOrMultiSelectDropDown"/>
+      <class name="Dropdown_types.HiddenDropDownList"/>
+      <class name=".NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Small Tasks -->
